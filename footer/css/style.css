@@ -28,22 +28,28 @@ a {
 
 
 .content {
-  height: 70vh; }
+  height: 50vh; }
 
 .footer-16371 {
-  padding: 7rem 0;
+  /*padding: 7rem 0;*/
   font-family: 'Merriweather', serif;
   background: linear-gradient(rgba(0, 0, 0, 1.5), rgba(44, 43, 43, 0.5));
   margin-top: 50px;
- height: 46vh;
+  height: fit-content;
   
 }
+.container1{
+
+}
+
 
 
   .footer-16371 .footer-site-logo {
     text-align: center;
     font-size: 2rem;
-    font-weight: 900; }
+    font-weight: 900;
+    margin-top: -10px;
+   }
     .footer-16371 .footer-site-logo a {
       color: #4200ff; }
   .footer-16371 .nav-links {

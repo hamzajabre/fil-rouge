@@ -12,6 +12,7 @@
 	font-family: 'Merriweather', serif;
 	box-shadow: 1px 1px 3px rgba(255, 255, 255, 0.54);
 	z-index: 99;
+	height: 6em;
 }
 .cc-navbar .nav-link {
 	border-bottom: 1px solid transparent;
@@ -28,7 +29,7 @@
 
 .banner,
 .order-form {
-	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/banniere2.jpg') center center fixed no-repeat;
+	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/pexels-ivan-57980.jpg') center center fixed no-repeat;
 	background-size: cover;
 	height: 800px;
 }
@@ -67,5 +68,20 @@
 	margin-bottom: 0.5em;
 }
 
+@media screen and (max-width: 512px){
+
+	.image{
+		margin-top: -40px;
+		margin-left: -50px;
+		
+	}
+	.navbar-toggler{
+		margin-top: -50px;
+		margin-right: 10px;
+	}
+	
+	
+}
+	
 
 
